@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+    footer{
+
+        border: 3px solid green;
+        background-color: greenyellow;
+    }
+    .copy{
+        display: flex;
+        justify-content:left;
+        margin:20px;
+        padding:5px;
+        background-color: rgb(189, 203, 215);
+
+    }
+    .link{
+        display: flex;
+        justify-content:flex-end;
+    }
+    header{
+        border: 3px solid rgb(165, 179, 191);
+        background-color:  rgb(163, 180, 180)
+    }
+    nav{
+        text-decoration:none;
+        float: right;
+        border: 2px;
+        background-color: rgb(239, 245, 250);
+        margin: 10px;
+        padding: 5px;
+
+    }
+    nav a
+    {
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .intro{
+        background-color: rgb(225, 241, 255);
+        border: 3px solid orange;
+
+    } 
+    main{
+        background-color: rgb(229, 170, 60);
+
+    }
+    .main-box{
+        margin: 10px;
+        border: 2px solid green;
+        background-color: rgb(134, 146, 156);
+    }
+    .column{
+        margin: 10px;
+        float: left;
+        padding: 5px;
+        width: 30%;
+    }
+    .row::after{
+        content:"";
+        display: table;
+    }
