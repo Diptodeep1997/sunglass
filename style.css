@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+.main{
+    width: 70%;height: 50%;
+    background-image: url("C:/Users/ATI-24/Desktop/sunglass1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin-top: 100px;
+   
+    
+    
+   
+    
+}
+.menu{
+    width: 100px;
+    float: right;
+    list-style-type: none;
+    margin-top: auto;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    ul li a:hover{
+        color: lightblue
+    }
+    
+    
+}
